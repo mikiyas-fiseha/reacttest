@@ -11,3 +11,65 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.container{
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 6%, rgba(9,66,121,1) 58%, rgba(0,212,255,1) 100%);
+text-align: center;
+align-items: center;
+padding: 10px; 
+padding-bottom: 20px; 
+margin-bottom: 20px;
+}
+
+h2,label{
+  color: white;
+}
+input{
+  border-radius: 10px;
+  height: 20px;
+  margin: 10px;
+  padding: 5px;
+  background-color: azure;
+}
+
+.btn{
+  padding: 7px;
+  border-radius: 10px;
+}
+.links{
+  color: white;
+text-decoration:none;
+}
+.logo{
+ padding-left: 20px;
+
+}
+.menulist{
+  display: flex;
+  justify-content: space-between;
+ padding-left: 20px;
+ padding-right:100px ;
+}
+
+.navbar{
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+  background: #B79891;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #94716B, #B79891);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #94716B, #B79891); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+li{
+  list-style-type: none;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+
+.links{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  text-transform: uppercase;
+}
